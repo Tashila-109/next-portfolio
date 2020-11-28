@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "start": "next start",
     "export": "next export",
     "deploy": "cd out && now --public"
@@ -16,6 +17,7 @@
   "dependencies": {
     "isomorphic-unfetch": "^3.1.0",
     "next": "^10.0.2",
+    "next-on-netlify": "^2.6.3",
     "nprogress": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
